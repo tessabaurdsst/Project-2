@@ -1,0 +1,133 @@
+
+header {
+  background-image: url('https://i.ytimg.com/vi/yav02mGh58c/maxresdefault.jpg');
+  background-repeat: repeat;
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 1351px;
+  display: flex;
+  align-items: center;
+}
+/* ----- =logo ----- */
+
+h1 {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Unica One', cursive;
+  font-size: 100px;
+  color: white;
+  /*margin-top: 10px;*/
+}
+
+#top-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#top-nav a:hover {
+  color: red;
+}
+
+/* ----- =navigation ----- */
+
+#top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-family: 'Forum', cursive;
+}
+
+h2 {
+  font-family: 'Iceland', cursive;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Iceland', cursive;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+}
+
+.postscript {
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url('https://i.ytimg.com/vi/yav02mGh58c/maxresdefault.jpg');
+  background-repeat: repeat;
+  margin-left: -10px;
+  margin-top: 30px;
+  margin-bottom: -150px;
+  width: 1351px;
+  height: 100px;
+}
+
+.gallery {
+  display: flex;
+  height: 1000px;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.total {
+  display: flex;
+  height: 1000px;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:700px) {
+  h1 {
+    font-size: 150px;
+  }
+  h2 {
+    font-size: 100px;
+  }
+  h3 {
+    font-size: 90px;
+  }
+  p{
+    font-size:70px;
+  }
+  .postscript {
+    font-size: 50px;
+  }
+  li {
+    font-size: 50px;
+  }
+  nav {
+    font-size: 50px;
+  }
+  img {
+    width: 700px
+  }
+  .gallery {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 5050px;
+  }
+  .gall {
+    width: 1300px;
+    margin-top: 50px;
+  }
+  footer {
+    font-size: 50px;
+  }
+  #gallery1 {
+    margin-top: 5100px;
+  }
+}
